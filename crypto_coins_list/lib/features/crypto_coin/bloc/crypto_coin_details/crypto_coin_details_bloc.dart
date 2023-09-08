@@ -34,6 +34,7 @@ class CryptoCoinDetailsBloc
       GetIt.I<Talker>().handle(e, st);
     }
   }
+  
 
   @override
   void onError(Object error, StackTrace stackTrace) {
